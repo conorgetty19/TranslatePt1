@@ -45,11 +45,10 @@ const enemies = [
 
 for (const enemy of enemies) {
     if (enemy.isReallyHated) {
-        console.log("y")
-        // console.log(`${enemy.firstName} ${enemy.lastName} (Really, really dislike!)`)
+        console.log(`${enemy.firstName} ${enemy.lastName} (Really, really dislike!)`)
     }
     else {
-        console.log("n")
-        // console.log(`${enemy.firstName} ${enemy.lastName}`)
+
+        console.log(`${enemy.firstName} ${enemy.lastName}`)
     }
 }
